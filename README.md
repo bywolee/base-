@@ -107,4 +107,7 @@ A decentralized protocol deployed on Base — Coinbase's Ethereum Layer 2 networ
 ## 💡 Why Base
 Base offers near-instant finality, fees far cheaper than Ethereum mainnet, and seamless access to Coinbase's ecosystem of millions of users. It is the largest L2 by daily active addresses with over 1 million users daily.
 
+## 📜 Base History
+Base launched on mainnet in August 2023, incubated by Coinbase. It was originally built on Optimism's OP Stack and was part of the Superchain ecosystem. On February 18, 2026, Base announced a transition to its own proprietary unified stack for greater autonomy and faster development.
+
 

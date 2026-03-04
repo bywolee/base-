@@ -104,4 +104,7 @@
 ## 🌐 Overview
 A decentralized protocol deployed on Base — Coinbase's Ethereum Layer 2 network designed to bring the next billion users onchain. Built for low fees, high speed, and full EVM compatibility.
 
+## 💡 Why Base
+Base offers near-instant finality, fees far cheaper than Ethereum mainnet, and seamless access to Coinbase's ecosystem of millions of users. It is the largest L2 by daily active addresses with over 1 million users daily.
+
 

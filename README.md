@@ -101,4 +101,7 @@
 - [Contributing](#-contributing)
 - [License](#-license)
 
+## 🌐 Overview
+A decentralized protocol deployed on Base — Coinbase's Ethereum Layer 2 network designed to bring the next billion users onchain. Built for low fees, high speed, and full EVM compatibility.
+
 

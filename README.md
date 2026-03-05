@@ -134,3 +134,19 @@ npm install
 cp .env.example .env
 ```
 Required variables: `PRIVATE_KEY`, `BASE_RPC_URL`, `BASESCAN_API_KEY`.
+
+
+## 🌍 Network Configuration
+Add Base to `hardhat.config.js`:
+```js
+base: {
+  url: process.env.BASE_RPC_URL,
+  chainId: 8453,
+  accounts: [process.env.PRIVATE_KEY]
+},
+baseSepolia: {
+  url: "https://sepolia.base.org",
+  chainId: 84532,
+  accounts: [process.env.PRIVATE_KEY]
+}
+```

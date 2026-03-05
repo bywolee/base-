@@ -115,3 +115,6 @@ Base is an Ethereum Layer 2 using optimistic rollup technology. Transactions are
 
 ## 🔧 Unified Stack
 On February 18, 2026, Base confirmed a move away from the OP Stack to its own proprietary unified stack. All infrastructure is being consolidated into a single repository (`base/base`) built on open-source components like Reth. This gives Base full control over its roadmap and enables roughly six major upgrades per year — doubling its previous development pace.
+
+## 🚀 Getting Started
+Clone the repo, install dependencies, configure your `.env`, and deploy to Base. All contracts are EVM-compatible and work with standard Solidity tooling like Hardhat and Foundry.

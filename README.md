@@ -174,3 +174,6 @@ Base uses a two-component fee model: L2 execution fee and L1 data fee. The L1 da
 
 ## 💸 L1 vs L2 Fees
 L2 execution fees on Base are ~10-100x cheaper than Ethereum mainnet. L1 data fees depend on calldata size and Ethereum gas prices at the time of batch submission.
+
+## 🔥 EIP-1559 on Base
+Base implements EIP-1559, meaning transactions include a base fee (burned) and optional priority fee (tip). Base fees adjust dynamically based on network demand.

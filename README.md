@@ -159,3 +159,9 @@ Use the public RPC `https://mainnet.base.org` or a provider like Alchemy or Quic
 - **RPC:** https://mainnet.base.org
 - **Explorer:** https://basescan.org
 - **Native Token:** ETH
+
+## 🧪 Base Testnet Details
+- **Chain ID:** 84532
+- **Network:** Base Sepolia
+- **RPC:** https://sepolia.base.org
+- **Faucet:** https://faucet.quicknode.com/base/sepolia

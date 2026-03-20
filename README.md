@@ -177,3 +177,6 @@ L2 execution fees on Base are ~10-100x cheaper than Ethereum mainnet. L1 data fe
 
 ## 🔥 EIP-1559 on Base
 Base implements EIP-1559, meaning transactions include a base fee (burned) and optional priority fee (tip). Base fees adjust dynamically based on network demand.
+
+## 🔒 Security
+Follows checks-effects-interactions pattern. Access control via OpenZeppelin roles. Contracts tested with edge-case fuzzing and reviewed against Base-specific attack vectors.

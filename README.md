@@ -165,3 +165,6 @@ Use the public RPC `https://mainnet.base.org` or a provider like Alchemy or Quic
 - **Network:** Base Sepolia
 - **RPC:** https://sepolia.base.org
 - **Faucet:** https://faucet.quicknode.com/base/sepolia
+
+## ⛽ Gas Fee Optimization
+Base fees are a fraction of Ethereum mainnet. Uses packed structs, batched calls, and memory caching to further reduce on-chain costs. Off-chain computation minimizes unnecessary execution.

@@ -210,3 +210,6 @@ Uses the OP Stack's native cross-domain messenger for L1↔L2 communication. Thi
 
 ## 🪙 Token Standard
 All tokens follow OpenZeppelin's battle-tested implementations. Custom extensions are minimal and clearly documented to reduce audit surface area.
+
+## 💰 ERC-20 on Base
+Standard ERC-20 tokens deploy and operate identically to Ethereum mainnet on Base. Transfer costs are significantly lower, enabling micro-transactions at scale.

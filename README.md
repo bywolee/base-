@@ -186,3 +186,12 @@ Modular design with separated core logic, storage, and interfaces. Shallow inher
 
 ## 📄 Smart Contract Overview
 Core contracts handle protocol logic, token management, and access control. All contracts are written in Solidity ^0.8.20 and optimized for Base's gas model.
+
+## 🚀 Deployment on Base
+```bash
+npx hardhat deploy --network base
+```
+Verify automatically with:
+```bash
+npx hardhat verify --network base <CONTRACT_ADDRESS>
+```

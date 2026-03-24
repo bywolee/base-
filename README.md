@@ -201,3 +201,6 @@ ETH and ERC-20 tokens can be bridged from Ethereum mainnet to Base using the off
 
 ## 🔁 Base Bridge
 The official bridge at https://bridge.base.org supports ETH and standard ERC-20 deposits and withdrawals. Deposits are fast (~1-2 mins). Withdrawals require a 7-day challenge period.
+
+## 🔀 Third Party Bridges
+Faster bridging available via Across, Stargate, Hop Protocol, and Relay. These use liquidity pools to offer instant withdrawals bypassing the 7-day challenge window.

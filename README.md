@@ -213,3 +213,6 @@ All tokens follow OpenZeppelin's battle-tested implementations. Custom extension
 
 ## 💰 ERC-20 on Base
 Standard ERC-20 tokens deploy and operate identically to Ethereum mainnet on Base. Transfer costs are significantly lower, enabling micro-transactions at scale.
+
+## 🖼 ERC-721 on Base
+NFTs on Base benefit from low mint and transfer costs. Base has a thriving NFT ecosystem with projects like Zora, OpenSea, and native Base collections.

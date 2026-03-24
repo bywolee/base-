@@ -207,3 +207,6 @@ Faster bridging available via Across, Stargate, Hop Protocol, and Relay. These u
 
 ## 📨 Cross Chain Messaging
 Uses the OP Stack's native cross-domain messenger for L1↔L2 communication. Third-party options include LayerZero and Axelar for broader cross-chain support.
+
+## 🪙 Token Standard
+All tokens follow OpenZeppelin's battle-tested implementations. Custom extensions are minimal and clearly documented to reduce audit surface area.

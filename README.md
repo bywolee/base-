@@ -231,3 +231,6 @@ Ownership managed via OpenZeppelin `Ownable`. For production, ownership is trans
 
 ## ⏸ Pausable Contracts
 Critical functions can be paused in emergencies using OpenZeppelin `Pausable`. Only addresses with `PAUSER_ROLE` can trigger a pause on Base mainnet.
+
+## 🔄 Reentrancy Protection
+All state-changing external calls follow checks-effects-interactions. `ReentrancyGuard` from OpenZeppelin is applied to sensitive functions as an additional layer.

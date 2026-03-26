@@ -219,3 +219,6 @@ NFTs on Base benefit from low mint and transfer costs. Base has a thriving NFT e
 
 ## 🎮 ERC-1155 on Base
 Multi-token standard ideal for gaming and batch operations. Lower fees on Base make ERC-1155 batch transfers economically viable for high-frequency use cases.
+
+## 🛡 Access Control
+Uses OpenZeppelin's `AccessControl` for granular role-based permissions. Roles are defined at deployment and can be granted or revoked by admins.

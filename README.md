@@ -216,3 +216,6 @@ Standard ERC-20 tokens deploy and operate identically to Ethereum mainnet on Bas
 
 ## 🖼 ERC-721 on Base
 NFTs on Base benefit from low mint and transfer costs. Base has a thriving NFT ecosystem with projects like Zora, OpenSea, and native Base collections.
+
+## 🎮 ERC-1155 on Base
+Multi-token standard ideal for gaming and batch operations. Lower fees on Base make ERC-1155 batch transfers economically viable for high-frequency use cases.

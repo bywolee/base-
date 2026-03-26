@@ -246,3 +246,6 @@ External price data is fetched via Chainlink and Pyth Network oracles deployed o
 
 ## 🔗 Chainlink on Base
 Chainlink Price Feeds are live on Base mainnet. Supported pairs include ETH/USD, BTC/USD, and USDC/USD. Aggregator addresses available at docs.chain.link.
+
+## 📈 Price Feeds on Base
+Both Chainlink and Pyth provide low-latency price feeds on Base. Pyth offers sub-second updates suitable for high-frequency DeFi protocols.

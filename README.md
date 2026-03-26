@@ -249,3 +249,6 @@ Chainlink Price Feeds are live on Base mainnet. Supported pairs include ETH/USD,
 
 ## 📈 Price Feeds on Base
 Both Chainlink and Pyth provide low-latency price feeds on Base. Pyth offers sub-second updates suitable for high-frequency DeFi protocols.
+
+## 📁 IPFS Integration
+Off-chain metadata and assets are stored on IPFS via Pinata or NFT.Storage. Only content hashes are stored on-chain to minimize gas costs on Base.

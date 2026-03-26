@@ -240,3 +240,6 @@ Solidity ^0.8.x has built-in overflow protection. All arithmetic is safe by defa
 
 ## ⚡ Flash Loan Protection
 Price-sensitive functions use time-weighted average prices (TWAP) and block-based checks to prevent flash loan manipulation on Base's DEX ecosystem.
+
+## 🔮 Oracle Integration
+External price data is fetched via Chainlink and Pyth Network oracles deployed on Base. Staleness checks ensure data is not older than a defined threshold.

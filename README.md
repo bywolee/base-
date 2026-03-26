@@ -237,3 +237,6 @@ All state-changing external calls follow checks-effects-interactions. `Reentranc
 
 ## 🔢 Integer Overflow Protection
 Solidity ^0.8.x has built-in overflow protection. All arithmetic is safe by default. `unchecked` blocks are only used in gas-critical loops with verified bounds.
+
+## ⚡ Flash Loan Protection
+Price-sensitive functions use time-weighted average prices (TWAP) and block-based checks to prevent flash loan manipulation on Base's DEX ecosystem.

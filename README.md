@@ -225,3 +225,6 @@ Uses OpenZeppelin's `AccessControl` for granular role-based permissions. Roles a
 
 ## 👥 Role Management
 Roles include `ADMIN_ROLE`, `MINTER_ROLE`, and `PAUSER_ROLE`. Each role controls specific contract functions, minimizing risk of privilege escalation.
+
+## 👤 Ownership
+Ownership managed via OpenZeppelin `Ownable`. For production, ownership is transferred to a multi-sig wallet immediately after deployment on Base.

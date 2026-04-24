@@ -306,3 +306,7 @@ Security researchers who responsibly disclose vulnerabilities are eligible for b
 
 ## ⬆️ Upgradability
 Core contracts use the UUPS proxy pattern via OpenZeppelin. Upgrade authority is controlled by a multi-sig with a timelock delay. Storage layout is carefully maintained across upgrades to prevent slot collision.
+
+
+## 🔄 Proxy Pattern
+Uses OpenZeppelin's UUPS (ERC-1967) proxy. The implementation contract contains all logic while the proxy holds state. Upgrades are triggered by calling `upgradeTo()` from the authorized multi-sig on Base.

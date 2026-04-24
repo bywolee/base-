@@ -281,3 +281,5 @@ Each contract function has isolated unit tests covering happy paths, edge cases,
 ```bash
 npx hardhat test
 ```
+## 🔗 Integration Tests
+Integration tests simulate full user flows across multiple contracts using a forked Base mainnet. Covers bridging, DEX swaps on Aerodrome, staking, and governance scenarios end-to-end with real on-chain state.

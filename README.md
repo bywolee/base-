@@ -283,3 +283,6 @@ npx hardhat test
 ```
 ## 🔗 Integration Tests
 Integration tests simulate full user flows across multiple contracts using a forked Base mainnet. Covers bridging, DEX swaps on Aerodrome, staking, and governance scenarios end-to-end with real on-chain state.
+
+## 🎲 Fuzzing
+Foundry fuzzing (`forge test --fuzz-runs 10000`) discovers edge cases. Invariant tests verify that core protocol properties like solvency and correct accounting hold under arbitrary user inputs.

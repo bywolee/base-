@@ -344,3 +344,6 @@ Users stake tokens to earn protocol rewards. Staking contracts use time-weighted
 
 ## 🎁 Rewards
 Rewards are distributed per block and claimable at any time. The reward rate is adjustable by governance within defined bounds. Emissions are tracked on-chain and verifiable on Basescan.
+
+## 💧 Liquidity on Base
+Liquidity is provided via Aerodrome and Uniswap v3 pools on Base. Deep liquidity ensures low slippage for users. LPs earn swap fees plus protocol incentives distributed via the staking module.

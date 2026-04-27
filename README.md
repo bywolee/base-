@@ -347,3 +347,6 @@ Rewards are distributed per block and claimable at any time. The reward rate is 
 
 ## 💧 Liquidity on Base
 Liquidity is provided via Aerodrome and Uniswap v3 pools on Base. Deep liquidity ensures low slippage for users. LPs earn swap fees plus protocol incentives distributed via the staking module.
+
+## ✈️ Aerodrome Finance
+Aerodrome is the leading DEX and liquidity hub on Base, operating as a fork of Velodrome v2. It reached an all-time high of $1.68 billion in single-day trading volume. Protocol liquidity incentives are routed through Aerodrome's ve(3,3) model.

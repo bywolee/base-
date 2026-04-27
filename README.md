@@ -353,3 +353,6 @@ Aerodrome is the leading DEX and liquidity hub on Base, operating as a fork of V
 
 ## 🦄 Uniswap on Base
 Uniswap v3 is fully deployed on Base with concentrated liquidity pools. Base's low fees make Uniswap v3 range orders and JIT liquidity strategies viable at smaller capital sizes than on mainnet.
+
+## 🔃 DEX Integration
+Contracts integrate with Base DEXes via standard interfaces. Swap routing uses Aerodrome or Uniswap v3 depending on available liquidity depth. Slippage tolerance is configurable and enforced on-chain.

@@ -310,3 +310,6 @@ Core contracts use the UUPS proxy pattern via OpenZeppelin. Upgrade authority is
 
 ## 🔄 Proxy Pattern
 Uses OpenZeppelin's UUPS (ERC-1967) proxy. The implementation contract contains all logic while the proxy holds state. Upgrades are triggered by calling `upgradeTo()` from the authorized multi-sig on Base.
+
+## 🗂 Storage Layout
+Storage slots are explicitly documented in `StorageLayout.md`. Gap arrays (`uint256[50] __gap`) are used in upgradeable contracts to reserve slots for future state variables without causing storage collisions on Base.

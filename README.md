@@ -335,3 +335,6 @@ A `TimelockController` is deployed between the multi-sig and admin functions. Al
 
 ## 🗳 Governance on Base
 On-chain governance is implemented via OpenZeppelin Governor. Proposals are submitted on Base, voted on by token holders, and executed via the timelock. Low gas fees on Base make participation affordable for all holders.
+
+## 🗳 Voting
+Token holders vote on proposals using ERC-20Votes (EIP-5805 compliant). Votes are snapshotted at proposal creation block. Delegation is supported so holders can assign their voting power to representatives.

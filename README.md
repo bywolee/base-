@@ -329,3 +329,6 @@ Uses OpenZeppelin Contracts v5 for security primitives. Math operations use `Mat
 
 ## 🔏 Multi-Sig on Base
 Protocol admin functions are controlled by a Gnosis Safe multi-sig deployed on Base mainnet. Requires M-of-N signatures for sensitive operations like upgrades, pausing, and role assignment.
+
+## ⏱ Timelock
+A `TimelockController` is deployed between the multi-sig and admin functions. All upgrade and parameter change proposals have a minimum 48-hour delay, giving the community time to review and react before execution.

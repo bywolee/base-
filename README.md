@@ -338,3 +338,6 @@ On-chain governance is implemented via OpenZeppelin Governor. Proposals are subm
 
 ## 🗳 Voting
 Token holders vote on proposals using ERC-20Votes (EIP-5805 compliant). Votes are snapshotted at proposal creation block. Delegation is supported so holders can assign their voting power to representatives.
+
+## 🥩 Staking on Base
+Users stake tokens to earn protocol rewards. Staking contracts use time-weighted reward accounting to ensure fair distribution. Low Base fees make frequent claiming and compounding economically viable for all users.
